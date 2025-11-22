@@ -3,7 +3,7 @@ name: "Hansika Gunasekara"
 description: "A technical blog documenting my journey transitioning from Machine Learning Engineering to Agentic AI Development"
 repository: "yourusername/yourusername.github.io"
 
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 minimal_mistakes_skin: default
 
 markdown: kramdown
