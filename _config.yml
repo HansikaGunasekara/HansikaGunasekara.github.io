@@ -1,0 +1,56 @@
+title: "From MLOps to AgenticOps"
+name: "Hansika Gunasekara"
+description: "A technical blog documenting my journey transitioning from Machine Learning Engineering to Agentic AI Development"
+repository: "yourusername/yourusername.github.io"
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/page:num/"
+
+author:
+  name: "Hansika Gunasekara"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Machine Learning Engineer → Agentic AI Developer | 9 years of experience | Research & Patents | Building AgenticOps"
+  location: "Brighton, UK"
+  email: "hansikagunasekara@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hansika-gunasekara-12a132118/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/HansikaGunasekara"
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
